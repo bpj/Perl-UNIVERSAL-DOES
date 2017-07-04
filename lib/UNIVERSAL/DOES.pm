@@ -42,6 +42,7 @@ my %operator_of = (
 	HASH   => '%{}',
 	CODE   => '&{}',
 	GLOB   => '*{}',
+    Regexp => 'qr',
 );
 
 sub does {
